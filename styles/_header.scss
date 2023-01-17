@@ -69,6 +69,9 @@ input:hover {
 .search-btn{
     padding:0 5%;
     height:4rem;
+    background-color:#5474FD;
+    color: #FFFFFF;
+
 }
 
 .scroll {
@@ -94,7 +97,7 @@ input:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 80%;
 }
 
 .nav-logo{
@@ -108,9 +111,10 @@ input:hover {
     line-height: 26px;
     letter-spacing: 2.4px;
     text-transform: uppercase;
+    color: #FFFFFF;
 }
 
-.fa fa-search {
+.fa-fa-search {
     color: white;
     z-index: 1;
 }
@@ -141,7 +145,7 @@ a {
     font-size: 14px;
     line-height: 26px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: $mainfontcolor;
 }
 
 li a:hover {

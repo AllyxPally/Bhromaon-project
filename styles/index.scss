@@ -2,3 +2,120 @@
 @import 'header';
 @import 'main';
 @import 'footer';
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: auto;
+    font-family: fonts$primaryfont;
+    color: white;
+}
+
+.explore-btn {
+    font-family: fonts.$secondfont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #5474FD;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #8b9ef3;
+    color: rgb(243, 243, 201);
+}
+
+i:hover { scale:(1.2);
+}
+
+@media screen and (max-width: 1000px) {
+    .header-content {
+        max-width: 90%;
+    }
+    .main-content {
+    max-width: 90%;
+}
+.nav-bar li:not(:first-child) {
+    display: none;
+}
+.nav-bar a.icon {
+    display: flex;
+    float: right;
+}
+.nav-bar.responsive li {
+    display: block;
+}
+.nav.responsive .icon {
+    float: right;
+}
+.nav-bar.responsive a {
+    display: block;
+    float: none;
+    text-align: right;
+    font-size: 10px;
+}
+ul {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    background-color: #5474FD;
+    color: white;
+}
+
+.main-graphics {
+    font-size: 26px;
+}
+
+.main-content5{
+    align-items: center;
+}
+
+.main5-quote{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin: 4%;
+    overflow: hidden;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .main-content {
+        max-width: 100%;
+    }
+    .main1 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .main-text1 {
+        max-width: 90%;
+    }
+    .imgs-main {
+        max-width: 90%;
+        margin: 4%;
+    }
+    .cottage {
+        max-width: 100%;
+    }
+    .mountain {
+        max-width: 100%;
+    }
+    .main-graphics {
+        font-size: 18px;
+    }
+    .main5-quote {
+        flex-direction: column;
+    }
+    .footer-content {
+        max-width: 60%;
+    }
+}
