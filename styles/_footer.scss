@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #333333;
+    background-image: url(../images/Background-img6.jpg);
 }
 
 .footer-content {
@@ -14,9 +14,8 @@
     flex-direction: column;
     align-items: center;
     padding: 2%;
-    background-image: url(../images/Background-img6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  
+    
 }
 
 
@@ -46,5 +45,5 @@
 }
 
 .footer-links a:hover {
-    color: $mainfontcolor;
+    color: #5474FD;
 }
