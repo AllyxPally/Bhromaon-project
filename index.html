@@ -4,6 +4,7 @@
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/76429607c8.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -19,11 +20,12 @@
                     <p class="header-text">Safe Travel Anywhere</p> 
                     <form>
                         <input type="text" name="search" id="search" placeholder="Search Your Travel Destination" required minlength="4">
-                        <button class="search-btn">Search</button>
+                        <button class="search-btn">Search<i class="fa fa-search" aria-hidden="true"></i></button>
                     </form>
                 </div>
                 <div class="scroll">
                     <p>Scroll Down</p>
+                    <a href="#main"><i class="fa fa-angle-down"></i></a>
                 </div>
             </div>
         </header>
@@ -35,7 +37,8 @@
                     </div>
                     <nav class="nav-bar id=nav-bar">
                         <ul>
-                          <a class="icon" onclick="burgerMenu()"></a>
+                            <a class="icon" onclick="burgerMenu()">
+                            <i class="fa fa-bars"></i></a>
                           <li><a href="#">Who We Are</a></li>
                           <li><a href="#">What We Do</a></li>
                           <li><a href="#">Travel With Us</a></li>
@@ -61,7 +64,7 @@
                         <img class="cottage" src="images/Cottage.jpg" alt="cottage by the water">
                         </div>
                         <div class="imgs-2">
-                            <img class="mountain" src="images/Mountain view.png" alt="moutain view">
+                            <img class="mountain" src="images/Mountain View.jpg" alt="moutain view">
                             </div>
                         </div>
                     </div>
@@ -90,13 +93,63 @@
             <div class="main-content3">
                 <div class="spain-content">
                     <p class="spain-text">Spain</p>
-                    <p class="madrid"></p>
+                    <p class="madrid-text">Grand Spain Madrid</p>
                     <p class="text">But I must explain to you how all this mistaken idea of
                         account to denouncing pleasure and praising pain was account born and I account will give you a complete account of the system</p>
                     <button class="book-btn">Book Now</button>
                 </div>
                 </div>
             </div>
-        
+            <div class="main-section4">
+                <div class="main-content4">
+                    <div class="spain-content">
+                        <p class="spain-text">Spain</p>
+                        <p class="madrid-text">Grand Spain Madrid</p>
+                        <p class="text">But I must explain to you how all this mistaken idea of
+                            account to denouncing pleasure and praising pain was account born and I account will give you a complete account of the system</p>
+                        <button class="book-btn">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-section5">
+                <div class="main-content5">
+                    <h2 class="heading-5">What Our Tourists Say</h2>
+                    <div class="main5-quote">
+                        <img class="man1" src="images/Man1.jpg" alt="man in the mountains">
+                        <div class="quote-text">
+                            <p class="name">Sam Sumon</p>
+                            <p class="text">But I must explain to you how all this mistaken idea of account to denouncinpleasure and 
+                                praising pain
+                                But I must explain to you how all this mistaken idea of account to nai denouncing 
+                                pleasure and praising pain was account born and I account will give you a complete account of the system was account born and I account will give you a nai the complete account of the system
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer-section">
+               <div class="footer-content">
+                <h5 class="footer-logo">Bhromaon</h5>
+                <p class="footer-text">Safe Travel Anywhere</p>
+                <div class="footer-links">
+                    <a href="#"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            function burgerMenu() {
+                let burger = document.getElementById("nav-bar");
+                if (burger.className === "nav-bar") {
+                    burger.className += " responsive";
+                } else {
+                    burger.className = "nav-bar";
+                }
+            }
+        </script>
     </body>
 </html>
