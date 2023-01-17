@@ -52,7 +52,7 @@ form {
   display: -ms-flexbox;
   display: flex;
   max-width: 100%;
-  width: 100%;
+  /*width: 100px;*/
   -ms-grid-column-align: center;
       justify-self: center;
   border-color: white;
@@ -123,7 +123,7 @@ input:hover {
 
 .search-btn {
   padding: 0 5%;
-  height: 4rem;
+  height: 5rem;
 }
 
 .scroll {
@@ -166,7 +166,7 @@ input:hover {
 }
 
 .nav-logo {
-  max-width: 10%;
+  max-width: 15%;
 }
 
 .logo {
@@ -176,11 +176,6 @@ input:hover {
   line-height: 26px;
   letter-spacing: 2.4px;
   text-transform: uppercase;
-}
-
-.fa fa-search {
-  color: white;
-  z-index: 1;
 }
 
 .nav-bar {
@@ -193,7 +188,6 @@ ul {
   display: -ms-flexbox;
   display: flex;
   max-width: 100%;
-  width: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -221,50 +215,4 @@ a {
 
 li a:hover {
   color: darkblue;
-}
-
-.main-content1 {
-  max-width: 60%;
-}
-
-.text {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 1.6px;
-}
-
-.explore-btn, .book-btn {
-  padding: 4%;
-}
-
-.main-section1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  min-height: 100vh;
-  background-image: url(../images/Background-img2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.main-content1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.main-text1 {
-  max-width: 50%;
-  width: 100%;
-  color: #e8e8e8;
 }

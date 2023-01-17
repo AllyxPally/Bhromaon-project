@@ -1,0 +1,39 @@
+@use 'fonts';
+
+.main-content1{
+    max-width: 60%;
+}
+
+.text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+}
+
+.explore-btn, .book-btn{
+    padding: 4%;
+}
+
+.main-section1{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(../images/Background-img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-content1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-text1{
+    max-width: 50%;
+    width: 100%;
+    color: #e8e8e8;
+}
+
