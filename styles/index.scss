@@ -8,11 +8,11 @@ body {
     flex-direction: column;
     max-width: 1400px;
     margin: auto;
-    font-family: fonts$primaryfont;
+    font-family: fonts.$primaryfont;
     color: white;
 }
 
-.explore-btn {
+.explore-btn, .book-btn {
     font-family: fonts.$secondfont;
     font-style: normal;
     font-weight: normal;
@@ -26,7 +26,7 @@ body {
     color: white;
 }
 
-.btn:hover{
+.explore-btn:hover, .book-btn:hover{
     background-color: #8b9ef3;
     color: rgb(243, 243, 201);
 }

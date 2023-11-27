@@ -71,7 +71,11 @@ input:hover {
     height:4rem;
     background-color:#5474FD;
     color: #FFFFFF;
+}
 
+.search-btn:hover{
+    background-color: #8b9ef3;
+    color: rgb(243, 243, 201);
 }
 
 .scroll {
@@ -145,7 +149,7 @@ a {
     font-size: 14px;
     line-height: 26px;
     text-transform: uppercase;
-    color: $mainfontcolor;
+    color: fonts.$color-primary;
 }
 
 li a:hover {

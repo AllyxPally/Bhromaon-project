@@ -122,10 +122,16 @@ max-width: 90%;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    padding-left: 50px;
     background-image: url(../images/Background-img3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*.main-content3{
+
+}*/
+
 
 .spain-content{
     width: 50%;
@@ -191,8 +197,8 @@ max-width: 90%;
 
 .main5-quote{
     display: flex;
-    width: 1113px;
-    height:285px;
+    max-width: 1113px;
+    min-height:285px;
     overflow: auto;
 }
 

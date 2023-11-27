@@ -128,6 +128,11 @@ input:hover {
   color: #FFFFFF;
 }
 
+.search-btn:hover {
+  background-color: #8b9ef3;
+  color: rgb(243, 243, 201);
+}
+
 .scroll {
   font-style: normal;
   font-weight: normal;
@@ -178,6 +183,7 @@ input:hover {
   line-height: 26px;
   letter-spacing: 2.4px;
   text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .fa-fa-search {
@@ -210,7 +216,7 @@ ul {
   display: none;
 }
 
-.header-text a {
+a {
   text-decoration: none;
   font-family: "Aleo", serif;
   font-style: normal;
